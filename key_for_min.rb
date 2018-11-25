@@ -7,8 +7,8 @@ def key_for_min_value(name_hash)
   m = Float::INFINITY
   name_hash.each do |k, v|
     if v < m
-      n = v
-      m = k
+      n = k
+      m = v
       # binding.pry
     end
     binding.pry
