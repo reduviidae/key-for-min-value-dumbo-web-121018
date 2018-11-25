@@ -5,12 +5,15 @@ require "pry"
 def key_for_min_value(name_hash)
   n = nil
   m = Float::INFINITY
-  hash.each do |k, v|
-    if v < lowest_value
-      n = v
-      m = k
+  name_hash.each do |k, v|
+    if v < m
+      n = k
+      m = v
+      # binding.pry
     end
+    # binding.pry
   end
+  # binding.pry
   n
 end
 
