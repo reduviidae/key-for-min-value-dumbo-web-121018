@@ -14,7 +14,6 @@ def key_for_min_value(name_hash)
     n
   end
   binding.pry
-  n
 end
 
 
