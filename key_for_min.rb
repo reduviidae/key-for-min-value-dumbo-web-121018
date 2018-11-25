@@ -11,10 +11,10 @@ def key_for_min_value(name_hash)
       m = v
       # binding.pry
     end
-    binding.pry
+    # binding.pry
     n
   end
-  binding.pry
+  # binding.pry
 end
 
 
