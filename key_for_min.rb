@@ -9,8 +9,9 @@ def key_for_min_value(name_hash)
     if v < m
       n = v
       m = k
-      binding.pry
+      # binding.pry
     end
+    binding.pry
     n
   end
   binding.pry
